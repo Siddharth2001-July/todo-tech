@@ -1,0 +1,59 @@
+body {
+    background-color: grey;
+    color: white;
+}
+
+.container {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.list {
+    margin: 100px 500px;
+    text-align: start;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul li input,
+h4 {
+    display: inline;
+}
+
+.del {
+    margin: 0px -255px;
+    padding: 10px;
+    background: red;
+    color: white;
+    position: absolute;
+}
+
+.del:hover {
+    background: rgb(245, 78, 78);
+}
+
+.add-btn {
+    background: green;
+    color: white;
+    padding: 10px;
+}
+
+.add-btn:hover {
+    background-color: rgb(45, 228, 45);
+}
+
+.all {
+    padding: 3px;
+    position: absolute;
+    margin: 55px -258px;
+}
+
+.de-all{
+    padding: 3px;
+    position: absolute;
+    margin: 55px -185px;
+}
